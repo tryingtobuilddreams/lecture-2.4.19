@@ -37,8 +37,15 @@ Partial Class Form1
         Me.lblFirst = New System.Windows.Forms.Label()
         Me.btnAdd = New System.Windows.Forms.Button()
         Me.btnClearAdd = New System.Windows.Forms.Button()
+        Me.GroupBox3 = New System.Windows.Forms.GroupBox()
+        Me.lblInput = New System.Windows.Forms.Label()
+        Me.lblTotal = New System.Windows.Forms.Label()
+        Me.txtInput2 = New System.Windows.Forms.TextBox()
+        Me.txtTotal = New System.Windows.Forms.TextBox()
+        Me.btnCompute = New System.Windows.Forms.Button()
         Me.GroupBox1.SuspendLayout()
         Me.GroupBox2.SuspendLayout()
+        Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'lblName
@@ -181,18 +188,76 @@ Partial Class Form1
         '
         'btnClearAdd
         '
-        Me.btnClearAdd.Location = New System.Drawing.Point(272, 421)
+        Me.btnClearAdd.Location = New System.Drawing.Point(272, 476)
         Me.btnClearAdd.Name = "btnClearAdd"
         Me.btnClearAdd.Size = New System.Drawing.Size(98, 44)
         Me.btnClearAdd.TabIndex = 16
         Me.btnClearAdd.Text = "Clear"
         Me.btnClearAdd.UseVisualStyleBackColor = True
         '
+        'GroupBox3
+        '
+        Me.GroupBox3.Controls.Add(Me.btnCompute)
+        Me.GroupBox3.Controls.Add(Me.txtTotal)
+        Me.GroupBox3.Controls.Add(Me.txtInput2)
+        Me.GroupBox3.Controls.Add(Me.lblTotal)
+        Me.GroupBox3.Controls.Add(Me.lblInput)
+        Me.GroupBox3.Location = New System.Drawing.Point(33, 312)
+        Me.GroupBox3.Name = "GroupBox3"
+        Me.GroupBox3.Size = New System.Drawing.Size(213, 242)
+        Me.GroupBox3.TabIndex = 17
+        Me.GroupBox3.TabStop = False
+        Me.GroupBox3.Text = "GroupBox3"
+        '
+        'lblInput
+        '
+        Me.lblInput.AutoSize = True
+        Me.lblInput.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblInput.Location = New System.Drawing.Point(6, 36)
+        Me.lblInput.Name = "lblInput"
+        Me.lblInput.Size = New System.Drawing.Size(46, 20)
+        Me.lblInput.TabIndex = 0
+        Me.lblInput.Text = "Input"
+        '
+        'lblTotal
+        '
+        Me.lblTotal.AutoSize = True
+        Me.lblTotal.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblTotal.Location = New System.Drawing.Point(7, 81)
+        Me.lblTotal.Name = "lblTotal"
+        Me.lblTotal.Size = New System.Drawing.Size(44, 20)
+        Me.lblTotal.TabIndex = 1
+        Me.lblTotal.Text = "Total"
+        '
+        'txtInput2
+        '
+        Me.txtInput2.Location = New System.Drawing.Point(75, 35)
+        Me.txtInput2.Name = "txtInput2"
+        Me.txtInput2.Size = New System.Drawing.Size(100, 20)
+        Me.txtInput2.TabIndex = 2
+        '
+        'txtTotal
+        '
+        Me.txtTotal.Location = New System.Drawing.Point(75, 81)
+        Me.txtTotal.Name = "txtTotal"
+        Me.txtTotal.Size = New System.Drawing.Size(100, 20)
+        Me.txtTotal.TabIndex = 3
+        '
+        'btnCompute
+        '
+        Me.btnCompute.Location = New System.Drawing.Point(53, 144)
+        Me.btnCompute.Name = "btnCompute"
+        Me.btnCompute.Size = New System.Drawing.Size(101, 40)
+        Me.btnCompute.TabIndex = 4
+        Me.btnCompute.Text = "Compute"
+        Me.btnCompute.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(775, 638)
+        Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.btnClearAdd)
         Me.Controls.Add(Me.GroupBox2)
         Me.Controls.Add(Me.GroupBox1)
@@ -203,6 +268,8 @@ Partial Class Form1
         Me.GroupBox1.PerformLayout()
         Me.GroupBox2.ResumeLayout(False)
         Me.GroupBox2.PerformLayout()
+        Me.GroupBox3.ResumeLayout(False)
+        Me.GroupBox3.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -221,5 +288,11 @@ Partial Class Form1
     Friend WithEvents txtSum As System.Windows.Forms.TextBox
     Friend WithEvents btnAdd As System.Windows.Forms.Button
     Friend WithEvents btnClearAdd As System.Windows.Forms.Button
+    Friend WithEvents GroupBox3 As System.Windows.Forms.GroupBox
+    Friend WithEvents btnCompute As System.Windows.Forms.Button
+    Friend WithEvents txtTotal As System.Windows.Forms.TextBox
+    Friend WithEvents txtInput2 As System.Windows.Forms.TextBox
+    Friend WithEvents lblTotal As System.Windows.Forms.Label
+    Friend WithEvents lblInput As System.Windows.Forms.Label
 
 End Class

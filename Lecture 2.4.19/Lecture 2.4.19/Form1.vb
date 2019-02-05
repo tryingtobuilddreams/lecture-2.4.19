@@ -47,4 +47,17 @@
 
         txtInput.Focus()
     End Sub
+
+    Private Sub btnCompute_Click(sender As Object, e As EventArgs) Handles btnCompute.Click
+        ' defines the variables
+        Dim intInput As Integer
+        Dim intTotal As Integer
+
+
+        intInput = CInt(txtInput2.Text)
+        intTotal = CInt(txtTotal.Text)
+
+        intTotal = intTotal + intInput
+        txtTotal.Text = intTotal.ToString()
+    End Sub
 End Class
