@@ -1,0 +1,10 @@
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\bin\Debug\Lecture 2.4.19.exe.config
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\bin\Debug\Lecture 2.4.19.exe
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\bin\Debug\Lecture 2.4.19.pdb
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\bin\Debug\Lecture 2.4.19.xml
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\obj\Debug\Lecture_2._4._19.Form1.resources
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\obj\Debug\Lecture_2._4._19.Resources.resources
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\obj\Debug\Lecture 2.4.19.vbproj.GenerateResource.Cache
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\obj\Debug\Lecture 2.4.19.exe
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\obj\Debug\Lecture 2.4.19.xml
+C:\Users\dricha36\Documents\Visual Studio 2013\Projects\Lecture 2.4.19\Lecture 2.4.19\obj\Debug\Lecture 2.4.19.pdb
